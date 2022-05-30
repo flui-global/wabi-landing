@@ -1,4 +1,39 @@
+* {
+  font-family: "Poppins";
+}
+
 html, body {
   height: 100%;
   width: 100%;
+}
+
+.text-blue {
+  color: #059DC0;
+}
+
+.text-green {
+  color: #05A393;
+}
+
+.bg-blue {
+  background-color: #059DC0;
+}
+
+.bg-green {
+  background-color: #05A393;
+}
+
+.phone-img {
+  width: 300px
+}
+
+section.screen-section {
+  margin-bottom: 50px;
+}
+
+.screen-text {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1em;
+  width: 250px;
 }

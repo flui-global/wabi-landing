@@ -1,13 +1,75 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <!-- Begin Navbar -->
+  <nav class="p-3 m-0 w-full flex flex-row flex-wrap bg-white shadow">
+    <div class="w-1/5 flex flex-row flex-wrap justify-center content-center">
+      wabi
+    </div>
+    <div class="sm:flex md:hidden z-50 w-4/5 flex flex-row flex-wrap justify-end content-center h-10">
+      <button id="nav" class="text-gray-600 font-semibold px-1 text-2xl p-1 px-2 rounded bg-gray-20" type="button"><i
+          class="transition-rotate fa fa-bars"></i></button>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Begin JumboTron -->
+  <section class="max-w-screen-lg bg-white mx-auto text-center py-12 my-4 px-5">
+    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl mb-5">
+      Lörem ipsum tresk stereomani an i ränyprena.
+    </h2>
+    <h3 class="text-xl text-opacity-60 font-bold tracking-tight text-black sm:text-xl">
+      Lörem ipsum ivist tenyr, antiv ada. Du kan vara drabbad.
+      Synception pagt i stenonde.
+    </h3>
+    <div class="mt-8 flex justify-center">
+      <a href="#" class="text-sm bg-blue text-white font-bold py-3 px-6 rounded-md">
+        Register for free
+      </a>
+    </div>
+  </section>
+  <!-- End JumboTron -->
+
+
+  <div class="max-w-screen-lg mx-auto screens">
+    <!-- Begin Success case -->
+    <section class="flex flex-col items-center screen-section">
+      <img class="phone-img" src="./img/iphone.png" />
+      <p class="my-3 screen-text">Cliente feliz, Juanse Ayala</p>
+    </section>
+    <!-- End Success case -->
+
+    <!-- Step 1 -->
+    <section class="flex flex-col md:flex-row justify-center items-center screen-section">
+      <img class="phone-img mx-5" src="./img/iphone.png" />
+      <p class="my-3 mx-5 screen-text">1 Link para todos tus programas</p>
+    </section>
+    <!-- Step 1 -->
+
+    <!-- Step 2 -->
+    <section class="flex flex-col md:flex-row justify-center items-center screen-section">
+      <p class="my-3 mx-5 screen-text hidden md:block">Olvida los PDFs</p>
+      <img class="phone-img mx-5" src="./img/iphone.png" />
+      <p class="my-3 mx-5 screen-text block md:hidden">Olvida los PDFs</p>
+    </section>
+    <!-- Step 2 -->
+
+    <!-- Step 3 -->
+    <section class="flex flex-col md:flex-row justify-center items-center screen-section">
+      <img class="phone-img mx-5" src="./img/iphone.png" />
+      <p class="my-3 mx-5 screen-text">Maneja tu negocio, agenda citas, y maneja tu negocio</p>
+    </section>
+    <!-- Step 3 -->
+  </div>
 </body>
+
 </html>
