@@ -29,11 +29,21 @@ html, body {
 
 section.screen-section {
   margin-bottom: 50px;
+  padding: 20px;
+}
+
+.screen-text-container {
+  width: 250px;
 }
 
 .screen-text {
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
-  font-size: 1em;
-  width: 250px;
+  font-size: 1.1em;
+}
+
+.screen-subtitle {
+  font-size: 0.9em;
+  color: rgba(0,0,0, 0.6);
+  text-align: justify;
 }
